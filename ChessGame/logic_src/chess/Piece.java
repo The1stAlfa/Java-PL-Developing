@@ -4,12 +4,12 @@
  * and open the template in the editor.
  */
 
-package chessgame;
+package chess;
 
 /**
  *
- * @author Joel Ordoñez
+ * @author LoboAlfa2.0
  */
-public class Board {
+public class Piece {
     
 }
