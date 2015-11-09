@@ -13,7 +13,7 @@ import java.awt.Color;
 import java.awt.Graphics;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
-public class Work extends JPanel {
+public class tablero extends JPanel {
     
     public void paint(Graphics g){
         g.fillRect(100, 100, 400, 400);
@@ -33,7 +33,7 @@ public class Work extends JPanel {
     public static void main(String[] args){
         JFrame frame = new JFrame();
         frame.setSize(600,600);
-        frame.getContentPane().add(new Work());
+        frame.getContentPane().add(new tablero());
         frame.setLocationRelativeTo(null);
         frame.setBackground(Color.LIGHT_GRAY);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
